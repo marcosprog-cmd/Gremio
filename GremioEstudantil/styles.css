@@ -1,0 +1,99 @@
+body {
+    font-family: 'Optima', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagens/Gremio.jpeg); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real da sua imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+    background-position: center center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    color: #fff; /* Define a cor do texto para melhor contraste com a imagem de fundo */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff8e; /* Adicione uma cor de fundo */
+    border-radius: 8px; /* Adicione bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra sutil */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #161616; /* Adicione uma cor ao título principal */
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    color: #d69e03; /* Adicione uma cor ao subtitulo */
+    font-size: 24px; /* Ajuste o tamanho conforme desejado */
+}
+
+.category {
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Adicione uma cor de fundo para cada categoria */
+    padding: 10px;
+    border-radius: 6px; /* Adicione bordas arredondadas */
+    transition: background-color 0.3s; /* Adicione uma transição suave */
+}
+
+.category:hover {
+    background-color: #e0e0e0; /* Altere a cor de fundo no hover */
+}
+
+#fileList h2 {
+    margin-bottom: 10px;
+    color: #494949; /* Adicione uma cor ao título da categoria */
+}
+
+#fileList a {
+    display: block;
+    margin-bottom: 5px;
+    color: #007bff; /* Adicione uma cor ao link */
+    text-decoration: none;
+    transition: color 0.3s; /* Adicione uma transição suave */
+}
+
+#fileList a:hover {
+    color: #0056b3; /* Altere a cor do link no hover */
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff; /* Adicione uma cor ao texto do rodapé */
+}
+
+.category i {
+    color: #f1d84a; /* Substitua 'blue' pela cor desejada */
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffffff; /* Cor dos ícones */
+    font-size: 24px; /* Tamanho dos ícones */
+}
+
+.social-icons a:hover {
+    color: #ffe600; /* Cor dos ícones no hover */
+}
